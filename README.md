@@ -1,16 +1,77 @@
-# React + Vite
+# Little Lemon — Table Booking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive restaurant table booking application built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive restaurant landing page
+- Table reservation form
+- Customer name and email validation
+- Date, time, guest count, and occasion selection
+- Dynamically generated available booking times
+- Booking confirmation screen
+- Accessible form labels and semantic HTML
+- Unit tests with Vitest and React Testing Library
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Vite
+- CSS
+- Vitest
+- React Testing Library
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/kmaxdeveloper/little-lemon-web.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd little-lemon-web
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Testing
+
+Run unit tests:
+
+```bash
+npm test
+```
+
+Run ESLint:
+
+```bash
+npm run lint
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+## Booking API
+
+This project uses a local mock API to generate available booking times and simulate reservation submissions. It does not connect to a real restaurant booking backend.
+
+## Project
+
+Created as part of the Meta Front-End Developer Capstone learning project.
